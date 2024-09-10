@@ -15,7 +15,8 @@ let myObj = {
   return (
     <>
    <h1 className='bg-green-400 text-black rounded-xl'>Tailwind test</h1>
-   <Card channel = "chai aur code" someObje={myObj} />
+   <Card username = "chai aur code" btnText ="click me" />
+   <Card username = "hitesh" btnText ="visit me" />
     </>
   )
 }
